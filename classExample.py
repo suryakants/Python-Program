@@ -11,7 +11,7 @@ class Employee:
 		self.empId = empId
 
 	def getEmpId(self):
-		print "Total Employee: ", self.empId;
+		print "Employee Id: ", self.empId;
 
 	def employeeDetails(self):
 		print "Employee Id : ",self.empId + "  Name : ", self.name + "  Salary : ", self.salary;
@@ -23,6 +23,9 @@ class Employee:
 #"This would create first object of Employee class"
 emp1 = Employee("1038","Zara", 2000)
 emp1.getEmpId();
+emp1.empId = "0123";
+emp1.name =  "Linda Sharma";
+emp1.salary = 1000000
 emp1.employeeDetails();
 #"This would create second object of Employee class"
 emp2 = Employee("123", "Manni", 5000)
